@@ -1,10 +1,6 @@
-[package]
-name = "libbti"
-version = "0.1.0"
-edition = "2021"
+[workspace]
 
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
-
-[dependencies]
-binrw = "0.10.0"
-image = "0.24.3"
+members = [
+    "libbti",
+    "bti_extract"
+]
